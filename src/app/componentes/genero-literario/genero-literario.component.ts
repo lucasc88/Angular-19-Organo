@@ -14,5 +14,6 @@ import { CommonModule } from '@angular/common';
 })
 export class GeneroLiterarioComponent {
 
+  // input.required is the old @InputF
   genero = input.required<GeneroLiterario>();
 }
